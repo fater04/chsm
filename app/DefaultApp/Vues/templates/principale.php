@@ -50,14 +50,14 @@
                 </a>
             </div>
             <ul class="sf-menu header_right">
-                <li class="submenu selected">
+                <li class="selected">
                     <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('accueil') ?>" title="HOME">
-                        HOME
+                        ACCUEIL
                     </a>
                 </li>
-                <li class="submenu">
-                    <a href="#" title="Services">
-                       SERVICES
+                <li class="submenu wide">
+                    <a href="javascript:void(0)" title="Services">
+                        SERVICES
                     </a>
                     <ul>
                         <li>
@@ -67,7 +67,7 @@
                         </li>
                         <li>
                             <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('urgence') ?>" title=" Urgences">
-                               Urgences
+                                Urgences
                             </a>
                         </li>
                         <li>
@@ -77,93 +77,18 @@
                         </li>
                         <li>
                             <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('chirugicaux') ?>" title="Chirugicaux">
-                               Chirugicaux
+                                Chirugicaux
                             </a>
                         </li>
                         <li>
                             <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('para') ?>" title="para-Clinique">
-                               para-clinique
-                            </a>
-                        </li> <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gestion') ?>" title="Gestion du patient">
-                               Gestion du patient
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#" title="PAGES">
-                        PAGES
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="About">
-                                About
+                                para-clinique
                             </a>
                         </li>
                         <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
-                                Our Doctors
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('care') ?>" title="Medical Care">
-                                Medical Care
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="submenu wide">
-                    <a href="#" title="DEPARTMENTS">
-                        DEPARTMENTS
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="#" title="Primary Health Care">
-                                Primary Health Care
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                               title="Laryngological Clinic">
-                                Laryngological Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Pediatric Clinic">
-                                Pediatric Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Ophthalmology Clinic">
-                                Ophthalmology Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Outpatient Surgery">
-                                Outpatient Surgery
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Dental Clinic">
-                                Dental Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                               title="Gynaecological Clinic">
-                                Gynaecological Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                               title="Outpatient Rehabilitation">
-                                Outpatient Rehabilitation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Cardiac Clinic">
-                                Cardiac Clinic
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gestion') ?>"
+                               title="Gestion du patient">
+                                Gestion du patient
                             </a>
                         </li>
                     </ul>
@@ -226,14 +151,34 @@
                         </li>
                     </ul>
                 </li>
+                <li class="submenu">
+                    <a href="javascript:void(0)" title="A PROPOS">
+                        A PROPOS
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
+                                NOS DOCTEURS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="About">
+                                A PROPOS DE NOUS
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
                 <li>
                     <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gallery') ?>" title="SINGLE POST">
-                        Gallerie
+                        GALLERIE
                     </a>
                 </li>
+
                 <li>
                     <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('contact') ?>" title="SINGLE POST">
-                        Contact
+                        CONTACT
                     </a>
                 </li>
 
@@ -322,14 +267,15 @@
                         </li>
                         <li class="footer_contact_info_row">
                             <div class="footer_contact_info_left">
-                                 Haïti
+                                Haïti
                             </div>
 
                         </li>
                     </ul>
                     <ul class="social_icons clearfix">
                         <li>
-                            <a class="social_icon facebook" href="http://facebook.com/centrehospitaliersaintemarie" title=""
+                            <a class="social_icon facebook" href="http://facebook.com/centrehospitaliersaintemarie"
+                               title=""
                                target="_blank">
                                 &nbsp;
                             </a>
@@ -350,7 +296,7 @@
                     <div class="clearfix">
                         <div class="header_left">
                             <h3 class="box_header">
-                              Menu
+                                Menu
                             </h3>
                         </div>
                     </div>
