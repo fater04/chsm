@@ -56,6 +56,42 @@
                     </a>
                 </li>
                 <li class="submenu">
+                    <a href="#" title="Services">
+                       SERVICES
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('soins') ?>" title="Soins Ambulatoires">
+                                Soins Ambulatoires
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('urgence') ?>" title=" Urgences">
+                               Urgences
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('hospitalier') ?>" title="Medical Care">
+                                Hospiatliers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('chirugicaux') ?>" title="Chirugicaux">
+                               Chirugicaux
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('para') ?>" title="para-Clinique">
+                               para-clinique
+                            </a>
+                        </li> <li>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gestion') ?>" title="Gestion du patient">
+                               Gestion du patient
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
                     <a href="#" title="PAGES">
                         PAGES
                     </a>
@@ -320,10 +356,22 @@
                     </div>
                     <ul class="list clearfix">
                         <li class="icon_small_arrow right_white">
-                            <a href="#"> Home</a>
+                            <a href="#"> Soins Ambulatoires</a>
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">Medical Care</a>
+                            <a href="#">Urgences</a>
+                        </li>
+                        <li class="icon_small_arrow right_white">
+                            <a href="#">Hospitaliers
+                        </li>
+                        <li class="icon_small_arrow right_white">
+                            <a href="#">Chirugicaux
+                        </li>
+                        <li class="icon_small_arrow right_white">
+                            <a href="#">para-Clinique
+                        </li>
+                        <li class="icon_small_arrow right_white">
+                            <a href="#">Gesion du patient
                         </li>
                     </ul>
                 </div>
@@ -336,13 +384,13 @@
                         </div>
                         <ul class="list clearfix">
                             <li class="icon_small_arrow right_white">
-                                <a href="#"> About</a>
+                                <a href="#"> A Propos</a>
                             </li>
                             <li class="icon_small_arrow right_white">
-                                <a href="#">Our Doctor</a>
+                                <a href="#">Nos Docteurs</a>
                             </li>
                             <li class="icon_small_arrow right_white">
-                                <a href="#"> Gallery</a>
+                                <a href="#"> Gallerie</a>
                             </li>
                             <li class="icon_small_arrow right_white">
                                 <a href="#"> Contact</a>
