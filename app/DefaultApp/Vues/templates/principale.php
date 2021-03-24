@@ -186,7 +186,6 @@
             <div class="mobile_menu">
                 <select>
                     <option value="<?= \app\DefaultApp\DefaultApp::genererUrl('accueil') ?>">HOME</option>
-                    <option value="<?= \app\DefaultApp\DefaultApp::genererUrl('blogs') ?>">BLOG</option>
                     <option value="<?= \app\DefaultApp\DefaultApp::genererUrl('gallery') ?>">Gallerie</option>
                     <option value="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>">ABOUT</option>
                     <option value="<?= \app\DefaultApp\DefaultApp::genererUrl('contact') ?>">CONTACT</option>
@@ -296,7 +295,7 @@
                     <div class="clearfix">
                         <div class="header_left">
                             <h3 class="box_header">
-                                Menu
+                                Nos Services
                             </h3>
                         </div>
                     </div>

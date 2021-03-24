@@ -67,61 +67,62 @@
     <ul class="home_box_container clearfix">
         <li class="home_box light_blue animated_element animation-fadeIn duration-500">
             <h2>
-                <a href="index53a6.html?page=contact" title="Emergency Case">
-                    Emergency Case
+                <a href="javascript:void(0)" title="Emergency Case">
+                    Cas d'urgence
                 </a>
             </h2>
             <div class="news clearfix">
                 <p class="text">
-                    If you need a doctor urgently outside of CHSM opening hours, call emergency appointment number
-                    for emergency service.
+                    Si vous avez besoin d'un médecin de toute urgence en dehors des heures d'ouverture
+                    de la CHSM, appelez le numéro de rendez-vous d'urgence pour les services d'urgence.
+
                 </p>
-                <a class="more light icon_small_arrow margin_right_white" href="index53a6.html?page=contact"
-                   title="Read more">Read more</a>
+                <a class="more light icon_small_arrow margin_right_white" href="javascript:void(0)"
+                   title="Read more">Lire Plus</a>
             </div>
         </li>
         <li class="home_box blue animated_element animation-slideRight duration-800 delay-250">
             <h2>
-                <a href="indexf608.html?page=timetable" title="Doctors Timetable">
-                    Doctors Timetable
+                <a href="javascript:void(0)" title="Doctors Timetable">
+                    Horaire des médecins
                 </a>
             </h2>
             <div class="news clearfix">
                 <p class="text">
-                    Here at CHSM we have individual doctor's lists. Click read more below to see services and
-                    current timetable for our doctors.
+                    Ici, à la CHSM, nous avons des listes individuelles de médecins. Cliquez pour en savoir plus ci-dessous pour voir les services et
+                    calendrier actuel de nos médecins.
                 </p>
-                <a class="more light icon_small_arrow margin_right_white" href="indexf608.html?page=timetable"
-                   title="Read more">Read more</a>
+                <a class="more light icon_small_arrow margin_right_white" href="javascript:void(0)"
+                   title="Read more">Lire Plus</a>
             </div>
         </li>
         <li class="home_box dark_blue animated_element animation-slideRight200 duration-800 delay-500">
             <h2>
-                Opening Hours
+                Horaires d'ouvertures
             </h2>
             <ul class="items_list thin dark_blue opening_hours">
                 <li class="clearfix">
 					<span>
-						Monday - Friday
+						Lundi - Vendredi
 					</span>
                     <div class="value">
-                        8.00 - 17.00
+                       24h/24
                     </div>
                 </li>
                 <li class="clearfix">
 					<span>
-						Saturday
+						Samedi
 					</span>
                     <div class="value">
-                        9.30 - 17.30
+                        24h/24
                     </div>
                 </li>
                 <li class="clearfix">
 					<span>
-						Sunday
+						Dimanche
 					</span>
                     <div class="value">
-                        9.30 - 15.00
+                       24h/24
                     </div>
                 </li>
             </ul>
