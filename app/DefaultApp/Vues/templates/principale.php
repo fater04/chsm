@@ -206,26 +206,26 @@
             <ul class="footer_banner_box_container clearfix">
                 <li class="footer_banner_box super_light_blue animated_element animation-fadeIn duration-500">
                     <h2>
-                        Health Insurance
+                        Assurance santé
                     </h2>
                     <p>
-                        <a class="icon_small_arrow right_white" href="#">Here in CHSM we have individual</a>
+                        <a class="icon_small_arrow right_white" href="javascript:void(0)">Ici, à la CHSM, nous avons des...</a>
                     </p>
                 </li>
                 <li class="footer_banner_box light_blue animated_element animation-slideRight duration-800 delay-250">
                     <h2>
-                        Medical Records
+                        Dossiers médicaux
                     </h2>
                     <p>
-                        <a class="icon_small_arrow right_white" href="#">Here in CHSM we have individual</a>
+                        <a class="icon_small_arrow right_white" href="#">Ici, à la CHSM, nous avons des...</a>
                     </p>
                 </li>
                 <li class="footer_banner_box blue animated_element animation-slideRight200 duration-800 delay-500">
                     <h2>
-                        Online Bill Pay
+                        Assurance santé
                     </h2>
                     <p>
-                        <a class="icon_small_arrow right_white" href="#">Here in CHSM we have individual</a>
+                        <a class="icon_small_arrow right_white" href="#">Ici, à la CHSM, nous avons des...</a>
                     </p>
                 </li>
             </ul>

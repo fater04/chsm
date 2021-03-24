@@ -319,14 +319,14 @@
         <div class="announcement page_margin_top_section clearfix">
             <ul class="columns no_width">
                 <li class="column_left">
-                    <h1>We offer a no obligation a free initial consultation</h1>
-                    <p>Fees are an estimate only and may be more depending on your situation</p>
+                    <h2>Nous offrons sans engagement une première consultation gratuite</h2>
+                    <p>Les frais ne sont qu'une estimation et peuvent être plus élevés en fonction de votre situation</p>
                 </li>
                 <li class="column_right">
                     <div class="vertical_align">
                         <div class="vertical_align_cell">
-                            <a title="Make an Appointment" href="index53a6.html?page=contact"
-                               class="more blue medium animated_element animation-slideLeft">Make an Appointment</a>
+                            <a title="Make an Appointment" href="javascript:void(0)"
+                               class="more blue medium animated_element animation-slideLeft">Prendre rendez-vous</a>
                         </div>
                     </div>
                 </li>
