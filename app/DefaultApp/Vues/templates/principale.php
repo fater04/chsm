@@ -93,79 +93,23 @@
                         </li>
                     </ul>
                 </li>
-                <li class="submenu wide">
-                    <a href="#" title="Timetable">
-                        TIMETABLE
-                    </a>
-                    <ul class="timetable_submenu">
-                        <li>
-                            <a href="#" title="All Departments">
-                                All Departments
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Cardiac Clinic">
-                                Cardiac Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Primary Health Care">
-                                Primary Health Care
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Laryngological Clinic">
-                                Laryngological Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Pediatric Clinic">
-                                Pediatric Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Ophthalmology Clinic">
-                                Ophthalmology Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Outpatient Surgery">
-                                Outpatient Surgery
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Dental Clinic">
-                                Dental Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Gynaecological Clinic">
-                                Gynaecological Clinic
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                               title="Outpatient Rehabilitation">
-                                Outpatient Rehabilitation
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+
                 <li class="submenu">
-                    <a href="javascript:void(0)" title="A PROPOS">
-                        A PROPOS
+                    <a href="javascript:void(0)" >
+                        A PROPOS DE NOUS ?
                     </a>
                     <ul>
                         <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
-                                NOS DOCTEURS
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="A PROPOS">
+                               PRESENTATION
                             </a>
                         </li>
                         <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="About">
-                                A PROPOS DE NOUS
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
+                                NOS MEDECINS
                             </a>
                         </li>
+
 
                     </ul>
                 </li>
@@ -332,7 +276,7 @@
                                 <a href="#"> A Propos</a>
                             </li>
                             <li class="icon_small_arrow right_white">
-                                <a href="#">Nos Docteurs</a>
+                                <a href="#">Nos Medecins</a>
                             </li>
                             <li class="icon_small_arrow right_white">
                                 <a href="#"> Gallerie</a>

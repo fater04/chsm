@@ -13,8 +13,8 @@
                 <h1 class="page_title">Contact</h1>
                 <ul class="bread_crumb">
                     <li>
-                        <a href="index9ba3.html?page=home" title="Home">
-                            Home
+                        <a href="#" title="Home">
+                        Accueil
                         </a>
                     </li>
                     <li class="separator icon_small_arrow right_gray">
@@ -32,92 +32,24 @@
             <div class="page_margin_top clearfix">
                 <div class="page_left">
                     <h3 class="box_header">
-                        Online Appointment Form
+                       Ecrivez-nous
                     </h3>
-                    <form class="contact_form" id="contact_form" method="post" action="http://quanticalabs.com/CHSM/Template/contact_form/contact_form.php">
-                        <ul class="clearfix tabs_box_navigation sf-menu">
-                            <li class="tabs_box_navigation_selected submenu wide" aria-haspopup="true">
-                                <input type="hidden" name="department" value="" />
-                                <span>Select department</span>
-                                <ul>
-                                    <li>
-                                        <a href="#laryngological-clinic" title="Laryngological Clinic">
-                                            Laryngological Clinic
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#primary-health-care" title="Primary Health Care">
-                                            Primary Health Care
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#ophthalmology-clinic" title="Ophthalmology Clinic">
-                                            Ophthalmology Clinic
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#pediatric-clinic" title="Pediatric Clinic">
-                                            Pediatric Clinic
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#dental-clinic" title="Dental Clinic">
-                                            Dental Clinic
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#outpatient-surgery" title="Outpatient Surgery">
-                                            Outpatient Surgery
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#outpatient-rehabilitation" title="Outpatient Rehabilitation">
-                                            Outpatient Rehabilitation
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#gynaecological-clinic" title="Gynaecological Clinic">
-                                            Gynaecological Clinic
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#cardiac-clinic" title="Cardiac Clinic">
-                                            Cardiac Clinic
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <fieldset class="left">
-                            <label>First Name</label>
+                    <form class="contact_form" id="contact_form" method="post" action="#">
+                       <fieldset class="left">
+                            <label>NOM</label>
                             <div class="block">
                                 <input class="text_input" name="first_name" type="text" value="" />
                             </div>
-                            <label>Date of Birth (mm/dd/yyyy)</label>
-                            <div class="block">
-                                <input class="text_input" type="text" name="date_of_birth" value="" />
-                            </div>
-                            <label>Phone Number</label>
-                            <div class="block">
-                                <input class="text_input" name="phone_number" type="text" value="" />
-                            </div>
+
                         </fieldset>
                         <fieldset class="right">
-                            <label>Last Name</label>
-                            <div class="block">
-                                <input class="text_input" type="text" name="last_name" value="" />
-                            </div>
-                            <label>Social Security Number</label>
-                            <div class="block">
-                                <input class="text_input" type="text" name="social_security_number" value="" />
-                            </div>
                             <label>E-mail</label>
                             <div class="block">
                                 <input class="text_input" type="text" name="email" value="" />
                             </div>
                         </fieldset>
                         <fieldset style="clear:both;">
-                            <label>Reason of Appointment</label>
+                            <label>Message</label>
                             <div class="block">
                                 <textarea name="message"></textarea>
                             </div>
@@ -128,56 +60,26 @@
                 </div>
                 <div class="page_right">
                     <h3 class="box_header">
-                        CHSM Clinic
+                        Centre Hospitalier Sainte Marie
                     </h3>
                     <h3 class="sentence">
-                        One of the most sublime experiences we can ever have is to wake up feeling healthy after we have been sick.
+                        CHSM un hopital offrant des soins integres,6 services 24/24,7/7 soins ambulatoires, urgences, hospitaliers, chirurgicaux, para-Clinique, gestion du patient
                     </h3>
                     <ul class="columns no_padding page_margin_top clearfix">
                         <li class="column_left">
-                            CHSM Clinic<br />
-                            33 Farlane Street<br />
-                            Keilor East<br />
-                            VIC 3033, Australia
+                            CHSM<br/>
+                            #43,45 Ave John Brown,<br/>
+                            (Lalue) Port-au-Prince,<br/>
+                            Haïti
                         </li>
                         <li class="column_right">
-                            Phone: +123 655 655<br />
-                            Fax: +123 755 755<br />
-                            ABN: 32040030725
+                            Phone: +509 28 12 0515<br/>
+                        </li>
+                        <li class="column_right">
+                            Email:chsmhaiti@gmail.com<br/>
                         </li>
                     </ul>
-                    <ul class="contact_data page_margin_top">
-                        <li class="clearfix">
-                            <span class="social_icon phone"></span>
-                            <p class="value">
-                                Phone: <strong>1-800-643-4300</strong>
-                            </p>
-                        </li>
-                        <li class="clearfix">
-                            <span class="social_icon mail"></span>
-                            <p class="value">
-                                E-mail: <a href="mailto:CHSM@mail.com">CHSM@mail.com</a>
-                            </p>
-                        </li>
-                        <li class="clearfix">
-                            <span class="social_icon facebook"></span>
-                            <p class="value">
-                                <a href="http://facebook.com/QuanticaLabs" title="Facebook" target="_blank">facebook.com/CHSM</a>
-                            </p>
-                        </li>
-                        <li class="clearfix">
-                            <span class="social_icon twitter"></span>
-                            <p class="value">
-                                <a href="http://twitter.com/QuanticaLabs" title="Twitter" target="_blank">twitter.com/CHSM</a>
-                            </p>
-                        </li>
-                        <li class="clearfix">
-                            <span class="social_icon googleplus"></span>
-                            <p class="value">
-                                <a href="http://quanticalabs.com/" title="Google +" target="_blank">google.com/CHSM</a>
-                            </p>
-                        </li>
-                    </ul>
+
                 </div>
             </div>
         </div>
