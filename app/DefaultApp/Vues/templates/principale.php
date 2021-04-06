@@ -94,31 +94,18 @@
                     </ul>
                 </li>
 
-                <li class="submenu">
-                    <a href="javascript:void(0)" >
-                        A PROPOS DE NOUS ?
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="A PROPOS">
-                               PRESENTATION
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
-                                NOS MEDECINS
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
 
                 <li>
-                    <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gallery') ?>" title="SINGLE POST">
-                        GALLERIE
+                    <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="A PROPOS">
+                       A PROPOS DE NOUS ?
                     </a>
                 </li>
+                <li>
+                    <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>" title="Our Doctors">
+                        NOS MEDECINS
+                    </a>
+                </li>
+
 
                 <li>
                     <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('contact') ?>" title="SINGLE POST">
