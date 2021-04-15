@@ -97,7 +97,7 @@
 
                 <li>
                     <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>" title="A PROPOS">
-                       A PROPOS DE NOUS ?
+                        A PROPOS DE NOUS ?
                     </a>
                 </li>
                 <li>
@@ -140,7 +140,8 @@
                         Assurance santé
                     </h2>
                     <p>
-                        <a class="icon_small_arrow right_white" href="javascript:void(0)">Ici, à la CHSM, nous avons des...</a>
+                        <a class="icon_small_arrow right_white" href="javascript:void(0)">Ici, à la CHSM, nous avons
+                            des...</a>
                     </p>
                 </li>
                 <li class="footer_banner_box light_blue animated_element animation-slideRight duration-800 delay-250">
@@ -202,25 +203,6 @@
 
                         </li>
                     </ul>
-                    <ul class="social_icons clearfix">
-                        <li>
-                            <a class="social_icon facebook" href="http://facebook.com/centrehospitaliersaintemarie"
-                               title=""
-                               target="_blank">
-                                &nbsp;
-                            </a>
-                        </li>
-                        <li>
-                            <a class="social_icon googleplus" href="centrehospitaliersaintemarie" title="">
-                                &nbsp;
-                            </a>
-                        </li>
-                        <li>
-                            <a class="social_icon mail" href="mailto:chsmhaiti@gmail.com" title="">
-                                &nbsp;
-                            </a>
-                        </li>
-                    </ul>
                 </div>
                 <div class="footer_box">
                     <div class="clearfix">
@@ -232,22 +214,22 @@
                     </div>
                     <ul class="list clearfix">
                         <li class="icon_small_arrow right_white">
-                            <a href="#"> Soins Ambulatoires</a>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('soins') ?>"> Soins Ambulatoires</a>
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">Urgences</a>
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('urgence') ?>">Urgences</a>
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">Hospitaliers
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('hospitalier') ?>">Hospitaliers
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">Chirugicaux
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('chirugicaux') ?>">Chirugicaux
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">para-Clinique
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('para') ?>">para-Clinique
                         </li>
                         <li class="icon_small_arrow right_white">
-                            <a href="#">Gesion du patient
+                            <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('gestion') ?>">Gesion du patient
                         </li>
                     </ul>
                 </div>
@@ -260,16 +242,13 @@
                         </div>
                         <ul class="list clearfix">
                             <li class="icon_small_arrow right_white">
-                                <a href="#"> A Propos</a>
+                                <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('about') ?>"> A Propos</a>
                             </li>
                             <li class="icon_small_arrow right_white">
-                                <a href="#">Nos Medecins</a>
+                                <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('contact') ?>"> Contact</a>
                             </li>
                             <li class="icon_small_arrow right_white">
-                                <a href="#"> Gallerie</a>
-                            </li>
-                            <li class="icon_small_arrow right_white">
-                                <a href="#"> Contact</a>
+                                <a href="<?= \app\DefaultApp\DefaultApp::genererUrl('doctor') ?>">Nos Medecins</a>
                             </li>
                         </ul>
                     </div>
